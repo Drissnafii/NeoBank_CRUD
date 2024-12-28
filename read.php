@@ -16,7 +16,7 @@
             echo "<td>" . $contact['ID'] . "</td>"; 
             echo "<td>" . $contact['firstname'] . "</td>"; 
             echo "<td>" . $contact['lastname'] . "</td>";
-            echo "<td>" . $contact['email'] . "</td>";
+            // echo "<td>" . $contact['email'] . "</td>";
             echo "<td>" . $contact['pass'] . "</td>";
             echo "</tr>";
         }

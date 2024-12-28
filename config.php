@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db = 'drissdb';
 $user = 'root';
-$pass = '';
+$passw = '';
 
 try {
   //code...
@@ -29,7 +29,7 @@ try {
 
   $dsn = "mysql:host=" .  $host. 
   ";dbname=" . $db;
-  $pdo = new PDO($dsn, $user, $pass);
+  $pdo = new PDO($dsn, $user, $passw);
 } catch (PDOException $e) {
   die("conection failded". $e->getMessage());
 }
