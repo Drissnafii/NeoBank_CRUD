@@ -1,13 +1,7 @@
 <?php
-require 'config.php';
+require __DIR__ . '/config/Connection.php';
+require __DIR__ . '/includes/header.php';
 ?> 
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Contact Form</title>
-</head>
-<body>
 
 <div class="ContainerAll">
 
@@ -32,6 +26,7 @@ require 'config.php';
 
 <?php
 include 'read.php';
+include __DIR__ . '/includes/footer.php';
 ?> 
 </div>
 

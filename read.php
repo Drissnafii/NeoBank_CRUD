@@ -1,5 +1,5 @@
 <?php 
-    require("config.php");
+    require __DIR__ . '/config/Connection.php';
 
     $stmt = $pdo->prepare("SELECT * from contact");
     $stmt->execute(); 

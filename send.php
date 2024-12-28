@@ -1,6 +1,6 @@
 <?php
 
-require 'config.php';
+require __DIR__ . '/config/Connection.php';
 
 if (isset($_POST["submit"])) {
     # code...
