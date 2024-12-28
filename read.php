@@ -13,7 +13,7 @@
                 <th>Name</th><br>
                 <th>Last Name</th>
                 <th>Email</th>
-                <th>Password</th>
+                <th>Password</th> 
             </tr>";
 
             foreach ($contacts as $contact) {
