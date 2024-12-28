@@ -8,18 +8,23 @@
     if ($contacts>0) {
         echo "<table>";
         echo "<tr>
-        <th>Name</th><br>   <th>Last Name</th>  <th>Email</th> <th>Password</th>
-        </tr>";
+                <th>id</th><br>   
+                <th>Name</th><br>   
+                <th>Last Name</th>  
+                <th>Email</th> 
+                <th>Password</th>
+            </tr>";
 
-        foreach ($contacts as $contact) {
-            echo "<tr>";
-            echo "<td>" . $contact['ID'] . "</td>"; 
-            echo "<td>" . $contact['firstname'] . "</td>"; 
-            echo "<td>" . $contact['lastname'] . "</td>";
-            // echo "<td>" . $contact['email'] . "</td>";
-            echo "<td>" . $contact['pass'] . "</td>";
-            echo "</tr>";
-        }
+            foreach ($contacts as $contact) {
+                # code...
+                echo "<tr>
+                <td>$contact[ID]</td>  
+                <td>$contact[firstname]</td>  
+                <td>$contact[lastname]</td>  
+                <td>$contact[email]</td>  
+                <td>$contact[pass]</td>  
+            </tr>";
+            }
 
         echo "</table>";
     } else {
