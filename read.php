@@ -17,16 +17,18 @@
             </tr>";
 
             foreach ($contacts as $contact) {
-                echo "<pre>";
-                var_dump($contact); die();
-                echo "</pre>";
+                // echo "<pre>";
+                // var_dump($contact[4]); die();
+                // echo "</pre>";
+
+
                 # code...
                 echo "<tr>
                 <td>$contact[ID]</td>  
                 <td>$contact[firstname]</td>  
-                <td>$contact[lastname]</td>  
-                <td>$contact[email]</td>  
-                <td>$contact[pass]</td>  
+                <td>$contact[lastname]</td> 
+                <td>$contact[email]</td>
+                <td>$contact[pass]</td>
             </tr>";
             }
 
