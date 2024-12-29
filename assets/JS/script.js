@@ -1,3 +1,5 @@
+
+// filter script to ubderstand it later ... 
 function myFunction() {
     var input, filter, table, tr, td, i;
     input = document.getElementById("myInput");
@@ -16,3 +18,20 @@ function myFunction() {
       }
     }
   }
+
+  function filtering() {
+    
+    let container = document.getElementById('searching');
+    let myDiv = document.getElementById('myDiv');
+    let isRemoved = false;
+
+  if (isRemoved) {
+    // Add the element back
+    container.appendChild(myDiv);
+    isRemoved = false;
+  } else {
+    // Remove the element
+    container.removeChild(myDiv);
+    isRemoved = true;
+  }
+}
