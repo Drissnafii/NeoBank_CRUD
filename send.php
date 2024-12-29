@@ -4,10 +4,10 @@ require __DIR__ . '/config/Connection.php';
 
 if (isset($_POST["submit"])) {
     # code...
-    $firstname = $_POST["firstname"];
-    $lastname = $_POST["lastname"];
-    $email = $_POST["email"];
-    $pass = $_POST["pass"];
+    $firstname = htmlspecialchars($_POST["firstname"]) ;
+    $lastname = htmlspecialchars($_POST["lastname"]) ;
+    $email = htmlspecialchars($_POST["email"]) ;
+    $pass = htmlspecialchars($_POST["pass"]) ;
     
 
 $sql = "INSERT INTO contact (firstname, lastname, email, pass) 
