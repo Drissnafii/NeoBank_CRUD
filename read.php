@@ -7,7 +7,7 @@
 
 
     if ($contacts>0) {
-        echo "<table>";
+        echo "<table class=w3-table-all w3-centered >";
         echo "<tr>
                 <th>id</th><br>   
                 <th>Name</th><br>
