@@ -8,6 +8,7 @@ if (isset($_POST["submit"])) {
     $lastname = $_POST["lastname"];
     $email = $_POST["email"];
     $pass = $_POST["pass"];
+    
 
 $sql = "INSERT INTO contact (firstname, lastname, email, pass) 
         VALUES (:firstname, :lastname, :email, :pass)";

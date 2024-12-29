@@ -10,16 +10,16 @@ require __DIR__ . '/includes/header.php';
 <form action="send.php" method="POST"> 
 
 	<label for="firstname">First Name:</label><br>
-	<input type="text" id="firstname" name="firstname"><br><br>
+	<input type="text" id="firstname" name="firstname" require><br><br>
 
 	<label for="lastname">Last Name:</label><br>
-	<input type="text" id="lastname" name="lastname"><br><br>
+	<input type="text" id="lastname" name="lastname" require><br><br>
 
 	<label for="email">Email:</label><br>
-	<input type="email" id="email" name="email"><br><br>
+	<input type="email" id="email" name="email" require><br><br>
 
 	<label for="pass">Password:</label><br>
-	<input type="password" id="pass" name="pass"><br><br>
+	<input type="password" id="pass" name="pass" require><br><br>
 
 	<input type="submit" name="submit" value="Submit">
 </form>

@@ -7,10 +7,15 @@
 
 
     if ($contacts>0) {
-        echo "<div class= w3-container>";
+
+        echo "<div id='table_title'>
+                <h2>Centered Content</h2>
+                <p>Some centered text.</p>
+              </div>";
+        echo "<div class= w3-container scrollable-div>";
         echo "<table class= w3-table-all w3-centered >";
         echo "<tr>
-                <th>id</th><br>   
+                <th>id</th><br>
                 <th>Name</th><br>
                 <th>Last Name</th>
                 <th>Email</th>
