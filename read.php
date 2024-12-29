@@ -8,14 +8,14 @@
 
     if ($contacts>0) {
 
-        echo "<div id='table_title'>
-                <h2>Centered Content</h2>
-                <p>Some centered text.</p>
-              </div>";
+        echo "<p>Search for a name in the input field.</p>
+
+            <input class='w3-input w3-border w3-padding' type='text' placeholder='Search for names..' id='myInput' onkeyup='filterTable()'>";
+
         echo "<div class= w3-container scrollable-div>";
-        echo "<table class= w3-table-all w3-centered >";
+        echo "<table class= w3-table-all w3-centered id='myTable'>";
         echo "<tr>
-                <th>id</th><br>
+                <th>id</th><br>   
                 <th>Name</th><br>
                 <th>Last Name</th>
                 <th>Email</th>
