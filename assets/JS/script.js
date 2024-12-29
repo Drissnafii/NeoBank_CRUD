@@ -19,19 +19,19 @@ function myFunction() {
     }
   }
 
-  function filtering() {
+//   function filtering() {
     
-    let container = document.getElementById('searching');
-    let myDiv = document.getElementById('myDiv');
-    let isRemoved = false;
+//     let container = document.getElementById('searching');
+//     let myDiv = document.getElementById('myDiv');
+//     let isRemoved = false;
 
-  if (isRemoved) {
-    // Add the element back
-    container.appendChild(myDiv);
-    isRemoved = false;
-  } else {
-    // Remove the element
-    container.removeChild(myDiv);
-    isRemoved = true;
-  }
-}
+//   if (isRemoved) {
+//     Add the element back
+//     container.appendChild(myDiv);
+//     isRemoved = false;
+//   } else {
+//     Remove the element
+//     container.removeChild(myDiv);
+//     isRemoved = true;
+//   }
+// }
