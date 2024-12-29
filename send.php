@@ -20,5 +20,5 @@ $stmt->execute([
     ':pass'=>$pass,
 ]); 
 }
-header('location: index.php');                            
+header('location: index.php');                          
 ?>
